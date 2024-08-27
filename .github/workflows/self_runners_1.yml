@@ -19,7 +19,7 @@ jobs:
         
         
 #most of the below codes are avilable in github doc
-    steps:         # i belive almost similar to stages in jenkins
+    steps:         # i belive it is almost similar to stages in jenkins
     - uses: actions/checkout@v3
       # using plugin version 3, we instructing to check the code
       name: Checkout code
